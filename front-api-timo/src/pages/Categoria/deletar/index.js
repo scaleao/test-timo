@@ -61,7 +61,7 @@ class DeletarCategoria extends Component {
                             Remover
                         </button>
                         <br/><br/>
-                        <Link to={`/`}>Voltar</Link>
+                        <Link to={`/categorias`}>Voltar</Link>
                     </div>
                 </fieldset>
             );

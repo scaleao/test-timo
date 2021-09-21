@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './index.css';
-import moment from "moment";
 
 export default class Categorias extends Component {
     state = {
@@ -23,8 +22,8 @@ export default class Categorias extends Component {
 
         return (
             <div className="categoria-info">
-                <h1> {produto.categoria} </h1>
-                <Link to={`/categoria`}> Voltar </Link> <br />
+                <h1> {categoria.nome} </h1>
+                <Link to={`/categorias`}> Voltar </Link> <br />
                 <Link to={`/editarCategoria/${categoria.id}`}> Editar </Link> <br />
                 <Link to={`/deletarcategoria/${categoria.id}`}> Deletar </Link> <br />
             </div >

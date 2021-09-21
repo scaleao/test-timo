@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import './index.css';
-import moment from "moment";
 
 export default class Produtos extends Component {
     state = {
