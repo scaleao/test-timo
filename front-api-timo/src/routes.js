@@ -21,11 +21,11 @@ const Routes = () => (
             <Route path = "/criarProduto" component={CriarProduto} />
             <Route path = "/editarProduto/:id" component={EditarProduto} />
             <Route path = "/deletarProduto/:id" component={DeletarProduto} />
-            <Route exact path = "/categorias" component={MainCategoria} />
-            <Route path = "/produtos/:id" component={DetalhesCategoria} />
-            <Route path = "/criarProduto" component={CriarCategoria} />
-            <Route path = "/editarProduto/:id" component={EditarCategoria} />
-            <Route path = "/deletarProduto/:id" component={DeletarCategoria} />
+            <Route path = "/categorias" component={MainCategoria} />
+            <Route path = "/categoria/:id" component={DetalhesCategoria} />
+            <Route path = "/criarCategoria" component={CriarCategoria} />
+            <Route path = "/editarCategoria/:id" component={EditarCategoria} />
+            <Route path = "/deletarCategoria/:id" component={DeletarCategoria} />
         </Switch>
     </BrowserRouter>
 )
