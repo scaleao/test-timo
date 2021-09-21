@@ -22,7 +22,7 @@ export default class Main extends Component {
 
     render() {
         const { produto } = this.state;
-        return livro.map((produto, index) => (
+        return produto.map((produto, index) => (
 
             <div className="produto-list">
                 <div key={index} className="card mb-4">

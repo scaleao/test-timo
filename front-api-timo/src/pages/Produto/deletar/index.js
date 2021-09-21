@@ -46,7 +46,7 @@ class DeletarProduto extends Component {
         const { redirect } = this.state;
 
         if (redirect) {
-            return <Redirect to="/Produto" />;
+            return <Redirect to="/produtos" />;
         } else {
             return (
                 <fieldset>

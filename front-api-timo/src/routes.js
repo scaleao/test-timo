@@ -16,7 +16,7 @@ const Routes = () => (
     
     <BrowserRouter>
         <Switch>
-            <Route exact path = "/" component={MainProduto} />
+            <Route exact path = "/produtos" component={MainProduto} />
             <Route path = "/produtos/:id" component={DetalhesProduto} />
             <Route path = "/criarProduto" component={CriarProduto} />
             <Route path = "/editarProduto/:id" component={EditarProduto} />

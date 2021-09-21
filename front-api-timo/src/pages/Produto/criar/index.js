@@ -33,7 +33,7 @@ class CriarProduto extends Component {
     render() {
         const { redirect } = this.state;
         if (redirect) {
-            return <Redirect to="/Produto" />;
+            return <Redirect to="/produtos" />;
         } else {
             return (
                 <form onSubmit={this.handleSubmit}>
