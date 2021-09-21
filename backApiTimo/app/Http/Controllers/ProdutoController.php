@@ -12,7 +12,8 @@ class ProdutoController extends Controller
     public function index()
     {
         $produtos = Produto::get();
-        return $this->sendData($produtos);
+        //return $this->sendData($produtos);
+        return response()->json($produtos);
     }
 
     /**
